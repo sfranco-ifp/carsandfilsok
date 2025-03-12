@@ -1,0 +1,170 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: ivory;
+}
+
+/*------------------CAPÇALERA-----------------------*/
+
+.primer{
+    height: 589px;
+    height: 450px;
+    background-image: url(../img/back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: canvi 12s infinite linear;
+}
+
+    @keyframes canvi{
+        0%{background-image: url(../img/back.png);}
+        12%{background-image: url(../img/bean.png);}
+        25%{background-image: url(../img/bond.png);}
+        32%{background-image: url(../img/break.png);}
+        45%{background-image: url(../img/ghost.png);}
+        52%{background-image: url(../img/pulp.png);}
+        65%{background-image: url(../img/rider.png);}
+        72%{background-image: url(../img/ghost.png);}
+        85%{background-image: url(../img/taxi.png);}
+        100%{background-image: url(../img/team.png);}
+        
+    }
+
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.gris{
+    color: gray;
+}
+.imatge{
+    margin: 0 auto;
+}
+
+/*-----------------CAIXES------------------------*/
+
+h2{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+img{
+    height: 200px;
+}
+
+.caixa{
+    width: 1002px;
+    height: 840px;
+    padding: 20px;
+    opacity: 50%;
+    margin: 0 auto;
+    
+}
+
+    .caixa:hover{
+        opacity: 100%;
+    }
+
+.caixa .un{
+    height: 240px;
+    width: 294px;
+    background-color: white;
+    float: left;
+}
+
+.caixa .dos{
+    height: 240px;
+    width: 294px;
+    background-color: white;
+    float: left;
+}
+
+.caixa .tres{
+    height: 240px;
+    width: 294px;
+    background-color: white;
+    float: left;
+}
+
+.caixa .quatre{
+    height: 240px;
+    width: 294px;
+    background-color: white;
+    float: left;
+}
+
+.caixa .cinc{
+    height: 240px;
+    width: 294px;
+    background-color: white;
+    float: left;
+}
+
+.caixa .sis{
+    height: 240px;
+    width: 294px;
+    background-color: white;
+    float: left;
+}
+
+.caixa .set{
+    height: 240px;
+    width: 294px;
+    background-color: white;
+    float: left;
+}
+
+.caixa .vuit{
+    height: 240px;
+    width: 294px;
+    background-color: white;
+    float: left;
+}
+
+.caixa .nou{
+    height: 240px;
+    width: 294px;
+    background-color: white;
+    float: left;
+}
+
+
+
+
+/*--------------------FINAL------------------------*/
+
+.final{
+    height: 220px;
+    text-align: center;
+}
+
+/*------------------RESPONSIVE--------------*/
+
+@media screen and (max-width: 940px){
+    .caixa{
+        width: 750px;
+        height: 840px;
+        display: inline-block;
+        padding: 20px;
+        opacity: 50%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .caixa{
+        width: 334px;
+        height: 840px;
+        display: inline-block;
+        padding: 20px;
+        opacity: 50%;
+        margin: 0 auto;
+    }
+}
