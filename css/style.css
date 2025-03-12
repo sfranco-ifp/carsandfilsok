@@ -10,11 +10,13 @@ body{
 /*------------------CAPÇALERA-----------------------*/
 
 .primer{
+    width: 960px;
     height: 589px;
     background-image: url(../img/back.png);
     background-size: contain;
     background-repeat: no-repeat;
     animation: canvi 12s infinite linear;
+    margin:0 auto;
 }
 
     @keyframes canvi{
@@ -68,6 +70,8 @@ img{
 
     .caixa:hover{
         opacity: 100%;
+        rotate: 360deg;
+        transition: 2s;
     }
 
 .caixa .un{
